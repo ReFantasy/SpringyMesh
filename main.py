@@ -5,7 +5,7 @@ import time
 ti.init(arch=ti.gpu)
 ti.init(device_memory_GB=0.1)
 
-gui = ti.GUI("TaichiGUI", res=(600, 600), background_color=0x00456B)
+gui = ti.GUI("TaichiGUI", res=(800, 800), background_color=0x00456B)
 
 # 添加滑块
 slider_value = gui.slider("slide", 0, 300, 1)
